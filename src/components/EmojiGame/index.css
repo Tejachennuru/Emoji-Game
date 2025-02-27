@@ -1,0 +1,22 @@
+/* Write your code here. */
+.CardSection {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #9796f0;
+  width: 800px;
+}
+
+.EmojiGame {
+  background-color: #9796f0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bodySection {
+  display: flex;
+  justify-content: center;
+}

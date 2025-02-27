@@ -1,0 +1,71 @@
+/* Write your code here. */
+.win-or-lose-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  margin-top: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.win-or-lose-card:hover {
+  transform: scale(1.02);
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.result-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #facc15;
+}
+
+.score-text {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #10b981;
+  margin-bottom: 15px;
+}
+
+.play-again-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.play-again-btn:hover {
+  background-color: #2563eb;
+}
+
+.result-image {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+.emojiCard {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Fix solid typo */
+  border-radius: 10px;
+  margin: 20px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+
+.emojiCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.emoji-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.emoji-img {
+  width: 80%;
+  height: auto;
+}
